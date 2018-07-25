@@ -1,0 +1,117 @@
+[
+  {
+    "type":"facebook-login"
+  },
+  
+  {
+    "type":"text",
+    "data":"Hey there! 👋 🙂"
+  },
+  {
+    "type":"text",
+    "data":"I’m Pawa, a virtual assistant who helps group admins grow their online communities."
+  },
+  {
+    "type":"input",
+    "multi":false,
+    "data":"Let's get to know each other! 🤝 What's your name❓",
+    "action":"_this.addBlock('Nice to meet you ' + input + '!😄')"
+  },
+  {
+    "type":"text",
+    "data":"I have 3 power features, but I'm best known for helping measure community engagement.💪"
+  },
+  {
+    "type":"option",
+    "data":"How active is the community you manage❓",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"Very active",
+        "type":"function",
+        "action":"_this.addBlock('Glad to hear it!')"
+      },
+      {
+        "data":"Just meeh!",
+        "type":"function",
+        "action":"_this.addBlock('Maybe Pawa can help drive more engagement.')"
+      }
+    ]
+  },
+  {
+    "type":"image",
+    "data":"http://i.imgur.com/q3e87zR.gif"
+  },
+  {
+    "type":"text",
+    "data":"Let me tell you a bit more about Pawa."
+  },
+  {
+    "type":"text",
+    "data":"Using a scientific tool called SO(V)C index I gauge the sense of commmunity in online groups."
+  },
+  {
+    "type":"text",
+    "data":"It's as easy as sending a questionnaire link to group members through a 💬conversational bot."
+  },
+  {
+    "type":"option",
+    "data":"They interactively fill it out and I track the results on a beautiful 📈dashboard.",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"That's amazing!",
+        "type":"function",
+        "action":"_this.addBlock('I know right!😉')"
+      },
+      {
+        "data":"Is it difficult to use?",
+        "type":"function",
+        "action":"_this.addBlock('No way! Its really quite simple.')"
+      }
+    ]
+  },
+  {
+    "type":"text",
+    "data":"Pawa has another great feature I call 💌HonestyBox."
+  },
+  {
+    "type":"text",
+    "data":"Group members can post sensitive questions anonmously giving emotional safety to shy members"
+  },
+
+
+  {
+    "type":"option",
+    "data":"I can also 📊calculate your community activity scores with data from FB Group Insights.",
+    "title":"Choose an Option",
+    "options":[
+      {
+        "data":"Wow!",
+        "type":"function",
+        "action":"_this.addBlock('😉')"
+      },
+      {
+        "data":"🗣️Tell me more!",
+        "type":"function",
+        "action":"_this.addBlock('Sure!')"
+      }
+    ]
+  },
+
+  {
+    "type":"text",
+    "data":"And the best part is I work for free in an app you already use, Facebook Messenger!"
+  },
+
+  {
+    "type":"text",
+    "data":"Ready to get started?🚀 Connect with Facebook below 👇"
+  },
+  {
+    "type":"link",
+    "data":"https://www.facebook.com/about/privacy/update",
+    "text":"*By clicking you're accepting our Privacy Policy"
+  }
+
+]
